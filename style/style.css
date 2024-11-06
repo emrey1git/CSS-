@@ -1,3 +1,13 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p,a,span,h1 {
+    color: red;
+}
+
+
+
 .goit2 {
     color: purple;
 }
@@ -39,4 +49,65 @@ div #arac li {
 
 .social-links .link:focus {
     color: blue;
+}
+
+/* Özgüllük - 0 0 0 1 */
+p {
+    color: green;
+}
+
+/* ✅ Özgüllük - 0 0 0 2 */
+section>p  {
+    color: rgb(227, 2, 160) !important;
+}
+
+.pelementi {
+    color: red; 
+}
+
+#pidsi {
+    color: chartreuse;
+}
+
+.kutucuk {
+   background-color: aqua;
+   width: 50%;
+   height: 200px;
+   border: 20px solid red;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   text-align: left;
+   text-indent: 20px;
+}
+
+.kutucuk p {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.goit-css {
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    background-color: gray;
+    line-height: 17px;
+}
+
+.shadow {
+    font-size: 40px;
+    color: black !important;
+    text-shadow: -5px -5px 7px red;
+    /*Eksi değeri başlangıç değeri olan sağ ve alt değerini sol ve üst değerine çevirir */
+    letter-spacing: 10px;
+    
+}
+
+.shadow span {
+    color: blue;
+    font-weight: 900px;
+    font-size: 20px;
+}
+
+.social-links {
+    list-style-type: none;
 }
