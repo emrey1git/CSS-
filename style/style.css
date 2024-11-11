@@ -2,9 +2,9 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-p,a,span,h1 {
+/* p,a,span,h1 {
     color: red;
-}
+} */
 
 
 
@@ -31,9 +31,9 @@ p,a,span,h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-div #arac li {
+/* div #arac li {
     font-size: 30px;
-}
+} */
 
 .social-links .link {
     color: teal;
@@ -51,15 +51,15 @@ div #arac li {
     color: blue;
 }
 
-/* Özgüllük - 0 0 0 1 */
+/* Özgüllük - 0 0 0 1
 p {
     color: green;
-}
+} */
 
-/* ✅ Özgüllük - 0 0 0 2 */
+/* ✅ Özgüllük - 0 0 0 2
 section>p  {
     color: rgb(227, 2, 160) !important;
-}
+} */
 
 .pelementi {
     color: red; 
@@ -111,3 +111,77 @@ section>p  {
 .social-links {
     list-style-type: none;
 }
+
+.box {
+    width: 400;
+    border: 2px solid red;
+    padding: 30px;
+    padding-right: 40px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.div1 {
+width: 200px;
+padding: 20px;
+border: 5px solid blue;
+box-sizing: content-box;
+background-color: lightblue;
+}
+
+.div2 {
+width: 200px;
+height: 200px;
+    padding: 20px;
+    border: 5px solid blue;
+    box-sizing: border-box;
+    background-color: lightblue;
+    border-radius: 300px;
+    overflow: hidden;
+}
+
+/* .div2:hover {
+    border-color: red;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+} */
+
+.div2::after { 
+    content: "after özelliği";
+    background-color: burlywood;
+}
+.div2::before {
+    content: "before özelliği";
+    color: red;
+}
+
+
+
+body {
+    margin: 15px;
+    background-color: rgb(236, 145, 96);
+}
+
+.frame {    
+    display:none;
+    margin-top: 50px;
+    width: 200px;
+    height: 100px;
+     border-top: 2px solid black;
+     border-left: 2px dashed red;
+     border-right: 2px dotted blue;
+     border-bottom: 2px solid purple;
+    /*display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; */
+}
+
+.maxWidth {
+    height: 80px;
+    max-width: 300px; 
+    background-color: red;
+    border: 2px solid black;
+}
+
